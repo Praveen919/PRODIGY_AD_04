@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
+        <!-- Game cells -->
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_bg"
+            android:onClick="onCellClick" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_bg"
+            android:onClick="onCellClick" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_bg"
+            android:onClick="onCellClick" />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_bg"
+            android:onClick="onCellClick" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_bg"
+            android:onClick="onCellClick" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_bg"
+            android:onClick="onCellClick" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_bg"
+            android:onClick="onCellClick" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_bg"
+            android:onClick="onCellClick" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="24sp"
+            android:background="@drawable/button_bg"
+            android:onClick="onCellClick" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_below="@id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="#FFC107"
+        android:textColor="#FFFFFF"
+        android:onClick="onResetClick" />
+</RelativeLayout>
